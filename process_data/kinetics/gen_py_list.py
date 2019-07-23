@@ -36,7 +36,8 @@ for i in range(len(folder_list)):
 
     names = folder_name.split(' ')
     key_name = folder_name
-    if len(names) > 1:
+    #if len(names) > 1:
+    if key_name.find('_'):
         key_name = '\"' + folder_name + '\"'
 
     clss_name = key_name.replace('_', ' ')
