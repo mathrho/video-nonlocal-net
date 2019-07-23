@@ -17,14 +17,14 @@ from joblib import delayed
 from joblib import Parallel
 import pandas as pd
 
-file_src = 'trainlist.txt'
-folder_path = 'YOUR_DATASET_FOLDER/train/'
-output_path = 'YOUR_DATASET_FOLDER/train_256/'
+# file_src = 'trainlist.txt'
+# folder_path = 'YOUR_DATASET_FOLDER/train/'
+# output_path = 'YOUR_DATASET_FOLDER/train_256/'
 
 
-# file_src = '/vallist.txt'
-# folder_path = 'YOUR_DATASET_FOLDER/val/'
-# output_path = 'YOUR_DATASET_FOLDER/val_256/'
+file_src = '/kinetics_vallist.txt'
+folder_path = '/export/sdb/home/lizhenyang8/data/kinetics/val/'
+output_path = '/export/sdb/home/lizhenyang8/data/kinetics/val_256/'
 
 
 file_list = []
