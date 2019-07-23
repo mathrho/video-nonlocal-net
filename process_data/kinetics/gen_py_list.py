@@ -52,7 +52,9 @@ for i in range(len(folder_list)):
     print(newfolder_name)
     folder_name_cmb = videodir + newfolder_name
 
-    shutil.move(folder_name_v1, folder_name_cmb)
+    if newfolder_name != folder_name:
+        print('not match!')
+    #shutil.move(folder_name_v1, folder_name_cmb)
 
     was[lbl] = 1
 
