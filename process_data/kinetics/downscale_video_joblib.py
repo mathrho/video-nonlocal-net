@@ -22,7 +22,7 @@ import pandas as pd
 # output_path = 'YOUR_DATASET_FOLDER/train_256/'
 
 
-file_src = '/kinetics_vallist.txt'
+file_src = 'kinetics_vallist.txt'
 folder_path = '/export/sdb/home/lizhenyang8/data/kinetics/val/'
 output_path = '/export/sdb/home/lizhenyang8/data/kinetics/val_256/'
 
