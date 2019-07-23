@@ -44,7 +44,7 @@ def downscale_clip(inname, outname):
     status = False
     inname = '"%s"' % inname
     outname = '"%s"' % outname
-    command = "ffmpeg  -loglevel panic -i {} -filter:v scale=\"trunc(oh*a/2)*2:256\" -q:v 1 -c:a copy {}".format( inname, outname)
+    command = "ffmpeg  -loglevel panic -i {} -filter:v scale=\"trunc(oh*a/2)*2:256\" -qmin 1 -qmax 1 -q:v 1 -c:a copy {}".format( inname, outname)
     try:
         output = subprocess.check_output(command, shell=True, stderr=subprocess.STDOUT)
     except subprocess.CalledProcessError as err:
