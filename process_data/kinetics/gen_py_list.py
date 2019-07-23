@@ -11,11 +11,11 @@ import shutil
 
 srclist = 'classids.json'
 
-videodir = 'YOUR_DATASET_FOLDER/train/'
-outlist = 'trainlist.txt'
+# videodir = 'YOUR_DATASET_FOLDER/train/'
+# outlist = 'trainlist.txt'
 
-# videodir = 'YOUR_DATASET_FOLDER/val/'
-# outlist = 'vallist.txt'
+videodir = '/export/sdb/home/lizhenyang8/data/kinetics/val/'
+outlist = 'vallist.txt'
 
 
 
