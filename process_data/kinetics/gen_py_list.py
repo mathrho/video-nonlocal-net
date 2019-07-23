@@ -39,7 +39,8 @@ for i in range(len(folder_list)):
     if len(names) > 1:
         key_name = '\"' + folder_name + '\"'
 
-    lbl = clss_ids[key_name]
+    clss_name = key_name.replace('_', ' ')
+    lbl = clss_ids[clss_name]
     newfolder_name = ''
 
     for j in range(len(names)):
