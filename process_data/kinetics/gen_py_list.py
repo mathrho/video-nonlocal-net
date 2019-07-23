@@ -15,7 +15,7 @@ srclist = 'classids.json'
 # outlist = 'trainlist.txt'
 
 videodir = '/export/sdb/home/lizhenyang8/data/kinetics/val/'
-outlist = 'vallist.txt'
+outlist = 'kinetics_vallist.txt'
 
 
 
